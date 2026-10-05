@@ -1,0 +1,22 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+playwright/.auth/
+tests/.auth/
+**/storage-state*.json
+**/storageState*.json
+*.postman_environment.json
+
+# Generated or unreviewed evidence (publish sanitized summaries separately)
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+*.har
+*.log
+reports/raw/
+Thumbs.db
+.DS_Store
